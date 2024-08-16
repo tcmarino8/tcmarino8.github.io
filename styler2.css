@@ -1,0 +1,175 @@
+
+
+/* General Styles */
+body {
+    background: #012b2a;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4.5vw;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    font-size: 1.5vw;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+p {
+    padding: top 10px;
+    padding: left 10px;
+
+}
+
+/* Profile Section */
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile img {
+    max-width: 15%;
+    height: auto;
+}
+
+/* Clock Styles */
+.clock-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 10px solid #000;
+    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+                inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+                inset -4px -4px 10px rgba(67, 67, 67, 0.5),
+                4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: relative;
+    padding: 2rem;
+}
+
+.outer-clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+        inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+        inset -4px -4px 10px rgba(67, 67, 67, 0.5),
+        4px 4px 10px rgba(0, 0, 0, 0.3);
+    background: #000;
+    overflow: hidden;
+}
+
+.inner-clock-face {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: #012b2a;
+    border-radius: 100%;
+    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+        inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+        inset -4px -4px 10px rgba(67, 67, 67, 0.5),
+        4px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+/* Center Circle */
+.center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000; /* Same green as the clock hands */
+    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+        inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+        inset -4px -4px 10px rgba(67, 67, 67, 0.5),
+        4px 4px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+    z-index: 12;
+}
+
+/* Clock Hand Styles */
+.hand {
+    width: 50%;
+    height: 5px;
+    background: #e6e6e6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+    transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+    width: 32%;
+    height: 4px;
+    z-index: 10;
+}
+
+.min-hand {
+    height: 3px;
+    width: 47%;
+    z-index: 10;
+}
+
+.second-hand {
+    background: #d66c17;
+    width: 45%;
+    height: 2px;
+}
+
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 6vw;
+    }
+
+    header nav a {
+        font-size: 4vw;
+    }
+
+    .profile img {
+        max-width: 30%;
+    }
+
+    .clock {
+        width: 20rem;
+        height: 20rem;
+    }
+}
