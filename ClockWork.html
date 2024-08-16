@@ -1,0 +1,448 @@
+<!DOCTYPE html> 
+<html>
+<body>
+
+<!-- Running into issues with full screen vs short screen, maybe we can set varaibles by length of screen, clock at center and the text at some distance away from the center and edge(look into variables) -->
+
+<link rel = 'stylesheet' href = "C:\Users\Tyler Marino\Desktop\Website Design\styler.css">
+
+<!--valuable information-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<script>
+var width = window.innerWidth;
+var height = window.innerHeight;
+var name_x = parseFloat(width - 160);
+
+</script>
+<div class = "box-container" style = "color:white; position:absolute; left:5%; top:5%">
+         <h1 style ="font-size:4.5vw;"> Tyler Marino</h1>
+</div>
+
+<div class = "box-container" style = "color:white; position:absolute; left:6.7%; top:4.7%">
+         <a href = "https://github.com/tcmarino8" target = "_blank" style ="font-size:2.7vw;"> Github    </a>
+</div>
+
+<div class = "box-container" style = "color:white; position:absolute; left:19.3%; top:4.7%">
+         <a href = "C:\Users\Tyler Marino\Documents\Job_Junt\Resume_Tyler_Marino(generic).pdf" target = "_blank" style ="font-size:2.7vw;"> Resume </a>
+</div>
+
+
+<div class = "box-container" style = "color:white; position:absolute; left:10%; top:17%">
+         <img src = "C:\Users\Tyler Marino\Pictures\Seal_of_University_of_California_Berkeley.png" style = "max-width:15%; height:auto;" title = "Student at UC Berekeley">
+</div>
+
+<div class = "box-container" style = "position:absolute; left:63%; top:6.5%" >
+          <p style = "font-size: 2.2vw;">Applied Mathematics-Data Science:<br> 
+            <span style="padding-left: 40px;"> Urban and Geospatial Data Analytics </span></p>
+</div>
+<!--<div class = "box-container" style = "position:absolute; left:67%; top:11%">
+         <p style = "font-size: 2.4vw;"> <u> Urban and Geospatial Data Analytics</u></p>
+</div> -->
+
+<div class = "box-container" style = "color:white; position:absolute; left:11.9%; top:35%">
+         <a href = "www.linkedin.com/in/tyler-marino-b36b581b9" target = "_blank" style = "font-size: 2.7vw;"> LinkedIn </a>
+</div>
+
+
+</body>
+</html>
+
+
+<!--begin clockwork-->
+<html lang="en">
+  <title>Tyler Marino: ClockWork</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="C:\Users\Tyler Marino\Desktop\Website Design\styler.css">
+   
+<style>
+
+
+
+ html {
+  background: #012b2a;
+  text-align: left;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: right;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 10px solid #000000;
+  box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
+                inset 4px 4px 10px rgba(0,0,0,0.5),
+                inset -4px -4px 10px rgba(67,67,67,0.5),
+                4px 4px 10px rgba(0,0,0,0.3);
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+ 
+}
+
+.outer-clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background: #000000 ;
+  
+ 
+  overflow: hidden;
+}
+
+.outer-clock-face::after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg)
+}
+
+.outer-clock-face::before,
+.outer-clock-face::after,
+.outer-clock-face .marking{
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: #1df52f;
+  z-index: 0;
+  left: 49%;
+}
+
+.outer-clock-face .marking {
+  background: #ffffff;
+  width: 2px;
+}
+
+.outer-clock-face .marking.marking-one {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  transform: rotate(30deg)
+}
+
+.outer-clock-face .marking.marking-two {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg)
+}
+
+.outer-clock-face .marking.marking-three {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  transform: rotate(120deg)
+}
+
+.outer-clock-face .marking.marking-four {
+  -webkit-transform: rotate(150deg);
+  -moz-transform: rotate(150deg);
+  transform: rotate(150deg)
+}
+.outer-clock-face .small{
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #1df52f;
+  z-index: 0;
+  left: 49%;
+}
+
+.outer-clock-face .small {
+  background: #bdbdcb;
+  width: 1px;
+}
+
+.outer-clock-face .small.marking-one {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  transform: rotate(5deg)
+}
+.outer-clock-face .small.marking-two {
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  transform: rotate(10deg)
+}
+.outer-clock-face .small.marking-three {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  transform: rotate(15deg)
+}
+.outer-clock-face .small.marking-four {
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg)
+}
+.outer-clock-face .small.marking-five {
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  transform: rotate(50deg)
+}
+.outer-clock-face .small.marking-six {
+  -webkit-transform: rotate(35deg);
+  -moz-transform: rotate(35deg);
+  transform: rotate(35deg)
+}
+.outer-clock-face .small.marking-seven {
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  transform: rotate(40deg)
+}
+.outer-clock-face .small.marking-eight {
+  -webkit-transform: rotate(55deg);
+  -moz-transform: rotate(55deg);
+  transform: rotate(55deg)
+}
+.outer-clock-face .small.marking-nine {
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  transform: rotate(25deg)
+}
+.outer-clock-face .small.marking-ten {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+.outer-clock-face .small.marking-eleven {
+  -webkit-transform: rotate(65deg);
+  -moz-transform: rotate(65deg);
+  transform: rotate(65deg)
+}
+.outer-clock-face .small.marking-twelve {
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  transform: rotate(70deg)
+}
+.outer-clock-face .small.marking-thirteen {
+  -webkit-transform: rotate(75deg);
+  -moz-transform: rotate(75deg);
+  transform: rotate(75deg)
+}
+.outer-clock-face .small.marking-fourteen {
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  transform: rotate(80deg)
+}
+.outer-clock-face .small.marking-fifteen {
+  -webkit-transform: rotate(85deg);
+  -moz-transform: rotate(85deg);
+  transform: rotate(85deg)
+}
+.outer-clock-face .small.marking-sixteen {
+  -webkit-transform: rotate(95deg);
+  -moz-transform: rotate(95deg);
+  transform: rotate(95deg)
+}
+.outer-clock-face .small.marking-seventeen {
+  -webkit-transform: rotate(100deg);
+  -moz-transform: rotate(100deg);
+  transform: rotate(100deg)
+}
+.outer-clock-face .small.marking-eighteen {
+  -webkit-transform: rotate(105deg);
+  -moz-transform: rotate(105deg);
+  transform: rotate(105deg)
+}
+.outer-clock-face .small.marking-nineteen {
+  -webkit-transform: rotate(110deg);
+  -moz-transform: rotate(110deg);
+  transform: rotate(110deg)
+}
+.outer-clock-face .small.marking-twenty {
+  -webkit-transform: rotate(115deg);
+  -moz-transform: rotate(115deg);
+  transform: rotate(115deg)
+}
+.outer-clock-face .small.marking-tone {
+  -webkit-transform: rotate(125deg);
+  -moz-transform: rotate(125deg);
+  transform: rotate(125deg)
+}
+.outer-clock-face .small.marking-ttwo {
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  transform: rotate(130deg)
+}
+.outer-clock-face .small.marking-tthree {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg)
+}
+.outer-clock-face .small.marking-tfour {
+  -webkit-transform: rotate(140deg);
+  -moz-transform: rotate(140deg);
+  transform: rotate(140deg)
+}
+.outer-clock-face .small.marking-tfive {
+  -webkit-transform: rotate(145deg);
+  -moz-transform: rotate(145deg);
+  transform: rotate(145deg)
+}
+.outer-clock-face .small.marking-tsix {
+  -webkit-transform: rotate(155deg);
+  -moz-transform: rotate(155deg);
+  transform: rotate(155deg)
+}
+.outer-clock-face .small.marking-tseven {
+  -webkit-transform: rotate(160deg);
+  -moz-transform: rotate(160deg);
+  transform: rotate(160deg)
+}
+.outer-clock-face .small.marking-teight {
+  -webkit-transform: rotate(165deg);
+  -moz-transform: rotate(165deg);
+  transform: rotate(165deg)
+}
+.outer-clock-face .small.marking-tnine {
+  -webkit-transform: rotate(170deg);
+  -moz-transform: rotate(170deg);
+  transform: rotate(170deg)
+}
+.outer-clock-face .small.marking-thirty {
+  -webkit-transform: rotate(175deg);
+  -moz-transform: rotate(175deg);
+  transform: rotate(175deg)
+}
+.inner-clock-face {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: #18282e ;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.inner-clock-face::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 18px;
+  margin-left: -9px;
+  margin-top: -6px;
+  background: #4d4b63;
+  z-index: 11;
+}
+
+.hand {
+  width: 50%;
+  right: 50%;
+  height: 5px;
+  background: #32a500;
+  position: absolute;
+  top: 50%;
+  border-radius: 7px;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hand.hour-hand {
+  width: 32%;
+  z-index: 10;
+  height: 4px;
+}
+
+.hand.min-hand {
+  height: 3px;
+  z-index: 10;
+  width: 47%;
+}
+
+.hand.second-hand {
+  background: #d66c17;
+  width: 45%;
+  height: 2px;
+}
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="outer-clock-face">
+          <div class="marking marking-one"></div>
+          <div class="marking marking-two"></div>
+          <div class="marking marking-three"></div>
+          <div class="marking marking-four"></div>
+	    <div class="small marking-one"></div>
+          <div class="small marking-two"></div>
+          <div class="small marking-three"></div>
+          <div class="small marking-four"></div>
+	    <div class="small marking-five"></div>
+          <div class="small marking-six"></div>
+          <div class="small marking-seven"></div>
+          <div class="small marking-eight"></div>
+	    <div class="small marking-nine"></div>
+          <div class="small marking-ten"></div>
+	    <div class="small marking-eleven"></div>
+          <div class="small marking-twelve"></div>
+          <div class="small marking-thirteen"></div>
+          <div class="small marking-fourteen"></div>
+	    <div class="small marking-fifteen"></div>
+          <div class="small marking-sixteen"></div>
+          <div class="small marking-seventeen"></div>
+          <div class="small marking-eighteen"></div>
+	    <div class="small marking-nineteen"></div>
+          <div class="small marking-twenty"></div>
+          <div class="small marking-tone"></div>
+	    <div class="small marking-ttwo"></div>
+          <div class="small marking-tthree"></div>
+          <div class="small marking-tfour"></div>
+          <div class="small marking-tfive"></div>
+	    <div class="small marking-tsix"></div>
+          <div class="small marking-tseven"></div>
+          <div class="small marking-teight"></div>
+          <div class="small marking-tnine"></div>
+	    <div class="small marking-thirty"></div>
+          <div class="inner-clock-face">
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand second-hand"></div>
+          </div>
+        </div>
+      </div>
+  <script>
+ 
+ const secondHand = document.querySelector('.second-hand');
+const minsHand = document.querySelector('.min-hand');
+const hourHand = document.querySelector('.hour-hand');
+
+function setDate() {
+  const now = new Date();
+
+  const seconds = now.getSeconds()+now.getMilliseconds()/1000
+  const secondsDegrees = ((seconds / 60) * 360) + 90;
+  secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+
+  const mins = now.getMinutes();
+  const minsDegrees = ((mins / 60) * 360) + ((seconds/60)*6) + 90;
+  minsHand.style.transform = `rotate(${minsDegrees}deg)`;
+
+  const hour = now.getHours();
+  const hourDegrees = ((hour / 12) * 360) + ((mins/60)*30) + 90;
+  hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+}
+
+setInterval(setDate, 1000/10);
+
+setDate();
+  </script>
+
+</body>
+</html>
