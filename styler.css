@@ -1,0 +1,23 @@
+h1 {color: #ffffff}
+p {color: #ffffff;}
+html {background  #22311d}
+
+
+.box-container {
+  background-color: /*transparent*/ #000000;
+  /*border: 1px solid #ccc;*/
+  padding: 2px;
+  margin: 2px;
+  /* Add other styles as desired */
+}
+.box-container {
+  position: relative;
+  /* Other styles */
+}
+
+.box-container:first-child(0) {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* Other styles */
+}

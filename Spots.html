@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spots</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <nav>
+        <a href="ClockWorkCoding.html">Home</a>
+    </nav>
+    <style>
+        header {
+        background-color: #012b2a;
+        color: whitesmoke;
+        padding: 10px;
+        position: relative;
+        }
+        main{
+            background-color: #012b2a;
+            color: whitesmoke;
+            padding: 10px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <style>
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+    </style>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([37.8715, -122.2730], 13); // UC Berkeley coordinates
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([37.8735, -122.2580]).addTo(map)
+            .bindPopup('UC Berkeley');
+        L.marker([33.065037, -117.304591]).addTo(map)
+            .bindPopup('Beacons Beach');
+        L.marker([50.625990, 3.049318]).addTo(map)
+            .bindPopup('Best Baguette Lille (Olive + Fromage');
+        L.marker([50.951871, 1.849996]).addTo(map)
+            .bindPopup('Best Park to Think');
+        L.marker([50.840995, 4.351427]).addTo(map)
+            .bindPopup("Quiche and Cafe ici: L'Atelier en Ville");
+        L.marker([48.850001, 2.348375]).addTo(map)
+            .bindPopup("Le Meillure Croissant: Maison d'Isabel");
+        L.marker([22.307826, 39.100863]).addTo(map)
+            .bindPopup("Snorkeling in the Red Sea");
+        L.marker([40.776327, -73.956122]).addTo(map)
+            .bindPopup("Ashley's epic spot");
+        L.marker([40.644285, -111.547453]).addTo(map)
+            .bindPopup("Deep Powder Stashed");
+        L.marker([37.768496, -122.512272]).addTo(map)
+            .bindPopup("Best well known beach break in California");
+        L.marker([37.607837, -122.498816]).addTo(map)
+            .bindPopup("Rockaway Beach");
+        L.marker([37.309844, -122.405221]).addTo(map)
+            .bindPopup("Worth a check on a Sunny Day");
+
+    </script>
+</body>
+</html>
