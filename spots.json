@@ -94,7 +94,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/TylerSchool640.jpg",
+            "url": "Photos/TylerSchool640.JPG",
             "mimeType": "image/jpeg"
         }
         ]
@@ -113,7 +113,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/TylerTent.jpg",
+            "url": "Photos/TylerTent.JPG",
             "mimeType": "image/jpeg"
         }
         ]
@@ -126,7 +126,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/tetonsheds.jpg",
+            "url": "Photos/tetonsheds.JPG",
             "mimeType": "image/jpeg"
         }
         ]
@@ -139,7 +139,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/YellowBuilding.jpg",
+            "url": "Photos/YellowBuilding.JPG",
             "mimeType": "image/jpeg"
         }
         ]
