@@ -1,0 +1,148 @@
+[
+  {
+    "title": "UC Berkeley",
+    "lat": 37.8735,
+    "lng": -122.2580,
+    "link": "https://nature.berkeley.edu/ruhilab/lab-members/tyler-marino/"
+  },
+  {
+    "title": "Beacons Beach",
+    "lat": 33.065037,
+    "lng": -117.304591,
+    "link": "https://www.surfline.com/surf-report/beacons/5842041f4e65fad6a77088a0/spot-guide"
+  },
+  {
+    "title": "Best Baguette Lille (Olive + Fromage)",
+    "lat": 50.625990,
+    "lng": 3.049318,
+    "description": ""
+  },
+  {
+    "title": "Best Park to Think",
+    "lat": 50.951871,
+    "lng": 1.849996,
+    "description": ""
+  },
+  {
+    "title": "Quiche et Cafe ici: L'Atelier en Ville",
+    "lat": 50.840995,
+    "lng": 4.351427,
+    "description": ""
+  },
+  {
+    "title": "Le Meillure Croissant: Maison d'Isabel",
+    "lat": 48.850001,
+    "lng": 2.348375,
+    "description": ""
+  },
+  {
+    "title": "Snorkeling in the Red Sea",
+    "lat": 22.307826,
+    "lng": 39.100863,
+    "description": "",
+    "media": [
+      {
+        "type": "video",
+        "url": "Photos/SnorkelingOnRedSea.MP4",
+        "mimeType": "video/mp4"
+      }
+    ]
+  },
+  {
+    "title": "Ashley's epic spot",
+    "lat": 40.776327,
+    "lng": -73.956122,
+    "description": ""
+  },
+  {
+    "title": "Deep Powder Stashed",
+    "lat": 40.644285,
+    "lng": -111.547453,
+    "description": ""
+  },
+  {
+    "title": "Best well known beach break in California",
+    "lat": 37.768496,
+    "lng": -122.512272,
+    "description": ""
+  },
+  {
+    "title": "Conveyor Belt",
+    "lat": 37.607837,
+    "lng": -122.498816,
+    "description": ""
+  },
+  {
+    "title": "Worth a check on a Sunny Day",
+    "lat": 37.309844,
+    "lng": -122.405221,
+    "description": ""
+  },
+
+    {
+        "title": "Fondation des Etats-Unis",
+        "lat": 48.81958065567337,
+        "lng": 2.3390566633879977,
+        "description": "An amazing place to call home with some very creative people",
+        "link": "https://www.fondationdesetatsunis.org/fr/"
+    },
+    {
+        "title": "Battiment 640 UP Saclay",
+        "lat": 48.71031973428378,
+        "lng": 2.1727800172561063,
+        "description": "Learning what AI is.",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/TylerSchool640.jpg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Better than SD",
+        "lat": 35.77709627065628,
+        "lng": -5.931149400499018,
+        "description": "Tangier was a trip and a half with Kyle and lee"
+    },
+    {
+        "title": "Wawona Campground",
+        "lat": 37.73094604426975,
+        "lng": -119.63735712635678,
+        "description": "Epic memories camping in Yosemite. Did so with many of my friends and family(sophomore, junior and senior year and again when I graduated). Never can forget the drive through the park with AB and the dePaolo crew.",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/TylerTent.jpg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Grand Tetons",
+        "lat": 43.72037339248106,
+        "lng": -110.78046795558618,
+        "description": "What a cool destination! Forever greatful that our parents put up with our behavior in the back of the car.",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/tetonsheds.jpg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Got to visit Paul",
+        "lat": 55.69062484157387,
+        "lng": 12.594189423541865,
+        "description": "Paul welcomed me in and showed me around his home in Copenhagen. It was quite a wonderful time, short but sweet! even some snow.",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/YellowBuilding.jpg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    }
+]
+
