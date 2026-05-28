@@ -10,7 +10,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/BirthdayLunch.JPEG",
+            "url": "Photos/BirthdayLunch.jpeg",
             "mimeType": "image/jpeg"
         }
         ]
@@ -23,7 +23,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/ConcaleOysters.JPEG",
+            "url": "Photos/ConcaleOysters.jpeg",
             "mimeType": "image/jpeg"
         }
         ]
@@ -36,7 +36,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/DadCafe.JPEG",
+            "url": "Photos/DadCafe.jpeg",
             "mimeType": "image/jpeg"
         }
         ]
@@ -51,7 +51,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/MarocSurf.JPEG",
+            "url": "Photos/MarocSurf.jpeg",
             "mimeType": "image/jpeg"
         }
         ]
@@ -77,7 +77,7 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/FriendsInValencia.JPEG",
+            "url": "Photos/FriendsInValencia.jpeg",
             "mimeType": "image/jpeg"
         }
         ]
@@ -105,12 +105,12 @@
         "media": [
         {
             "type": "image",
-            "url": "Photos/CiteCarts.JPEG",
+            "url": "Photos/CiteCarts.jpeg",
             "mimeType": "image/jpeg"
         },
         {
             "type": "image",
-            "url": "Photos/CiteFriends.JPEG",
+            "url": "Photos/CiteFriends.jpeg",
             "mimeType": "image/jpeg"
         }
         ]
