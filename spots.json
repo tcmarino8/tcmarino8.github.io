@@ -64,7 +64,7 @@
         "media": [
         {
             "type": "video",
-            "url": "Photos/MarocPour.MP4",
+            "url": "Photos/MarocPour.mp4",
             "mimeType": "video/mp4"
         }
         ]
@@ -92,7 +92,7 @@
         "media": [
         {
             "type": "video",
-            "url": "Photos/Dinan.MP4",
+            "url": "Photos/Dinan.mp4",
             "mimeType": "video/mp4"
         }
         ]
@@ -123,7 +123,7 @@
         "media": [
         {
             "type": "video",
-            "url": "Photos/ParisSummerMax.MP4",
+            "url": "Photos/ParisSummerMax.mp4",
             "mimeType": "video/mp4"
         }
         ]
