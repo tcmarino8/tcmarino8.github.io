@@ -1,5 +1,134 @@
 
 [
+
+
+    {
+        "title": "Cheeky Birthday Lunch",
+        "lat": 38.965415247929535,
+        "lng": -9.418076036785019,
+        "description": "Much love to LUIS Beethoven!",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/BirthdayLunch.JPEG",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Oyster off the rocks",
+        "lat": 48.67479593990681,
+        "lng": -1.8475095470330773,
+        "description": "Where else would you eat em?",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/ConcaleOysters.JPEG",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Dad loves his Cappucino at 10pm",
+        "lat": 48.85822111955489,
+        "lng": 2.303602168273185,
+        "description": "This spot has a wicked canard. Dad and I love this one!",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/DadCafe.JPEG",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+
+
+    {
+        "title": "Epic Little Surf Trip",
+        "lat": 30.546443597178698,
+        "lng": -9.720886611307183,
+        "description": "Down South for some summer fun in the winter!",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/MarocSurf.JPEG",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Souk",
+        "lat": 30.412317734589017,
+        "lng": -9.57973701332146,
+        "description": "Impressive amount of stuff with air flow",
+        "media": [
+        {
+            "type": "video",
+            "url": "Photos/MarocPour.MP4",
+            "mimeType": "video/mp4"
+        }
+        ]
+    },
+    {
+        "title": "Wow Valencia",
+        "lat": 39.47403420662851,
+        "lng": -0.37663728883267084,
+        "description": "The crew got together for some fun!",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/FriendsInValencia.JPEG",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+
+
+    {
+        "title": "Dinan in the Spring",
+        "lat": 48.45593273166064,
+        "lng": -2.0413442374058226,
+        "description": "Wow oh Wow did we love Dinan! Family Trip during our visit around France",
+        "media": [
+        {
+            "type": "video",
+            "url": "Photos/Dinan.MP4",
+            "mimeType": "video/mp4"
+        }
+        ]
+    },
+    {
+        "title": "Cite Universitaire is Super",
+        "lat": 48.81878945767888,
+        "lng": 2.338366461274975,
+        "description": "So much fun having friends living so close! A real gem of Paris",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/CiteCarts.JPEG",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "type": "image",
+            "url": "Photos/CiteFriends.JPEG",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Summer in the 10",
+        "lat": 48.87109465050329,
+        "lng": 2.365469059143393,
+        "description": "Summer turned on! Late May 2026",
+        "media": [
+        {
+            "type": "video",
+            "url": "Photos/ParisSummerMax.MP4",
+            "mimeType": "video/mp4"
+        }
+        ]
+    },
+
     {
     "title": "UC Berkeley",
     "lat": 37.8735,
