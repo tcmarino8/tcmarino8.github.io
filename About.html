@@ -17,6 +17,7 @@
             padding: 20px;
             position: fixed;
             width: 100%;
+            box-sizing: border-box;
             top: 0;
             left: 0;
             z-index: 1000;
@@ -42,6 +43,31 @@
         }
         .container p {
             flex: 1 1 auto; /* Allow paragraph to grow and shrink as needed */
+            overflow-wrap: anywhere;
+        }
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .image-row img {
+            width: min(200px, 28vw);
+            height: auto;
+        }
+        @media (max-width: 768px) {
+            main {
+                padding: 16px;
+            }
+
+            .image-row {
+                gap: 12px;
+            }
+
+            .image-row img {
+                width: min(170px, 40vw);
+            }
         }
     </style>
 </head>
@@ -53,7 +79,7 @@
     </header>
     <main>
         <div class="container" style="flex-direction: column; align-items: center;">
-            <div class="image-row" style="display: flex; justify-content: center; gap: 20px;">
+            <div class="image-row">
                 <img src="Photos/Laugh_headshot.jpg" width="200" height="200">
                 <img src="Photos/UCB.svg" alt="UC Berkeley" title="Alumni of UC Berkeley" width="230" height="200">
                 <img src="Photos/UPS.png" alt="Universite Paris - Saclay" title="Current Masters Student" width="200" height="200">
@@ -90,6 +116,16 @@
                 2026 is not so far away, but we are going to roll on with the good energy.
                 
                 <br>----- In the month of November 2025 I lost one of my best friends, for he could not face the struggle any longer. A struggle hidden to the outside world, he fought hard and shared so many moments with the lot of us. We are truly blessed to have him in our hearts, our memories and our lives. I want to send my gratitude to him for the selfless joy he provided to the world around him amidst the uncertainty and hardships he was facing. In any battle, there are some that win and some that lose, and I believe he won. You will be missed, you will live on with us in the many things we shared, in the guitar riffs, the waves watched and ridden and the oysters shucked and sucked. Much Love. 
+                <br>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                <br> <strong> 27/05/2026: </strong>
+                <br> AI needs to stop trying to blog for me lol..
+                <br> --- My experiences in cross-disciplinary data communication, studies in mathematics and artificial intelligence and passion for a responsible development of technological infrastructure lead me to this position. While my background emphasizes complex analysis, my interests lie beyond coding the foundation of a technological world and rather integrating the online with the functioning world we have developed thus far.
+
+                <br> --- I joined Dr. Ruhi, at UC Berkeley’s freshwater ecology lab, as a technical lead of one project from their group performing synthesis work of the time-varying relations of species population and the environment in the San Francisco Bay. In part, I spent time with the teams at Schmidt Data Science & Environment who were working on global emission simulation for national policy formulation and designing the geospatial infrastructure valuable for spatial computing. Throughout my time working at the intersection of science, technology and policy I participated in the rapid momentum of technological development in San Francisco, yet I was always curious about the borderless nature of this advancement. Moving to Paris for a masters degree has allowed me to uncover such international growth.
+
+                <br> --- Europe is teeming with technology. The range of expertise and ability in what seems like every major city keeps events and discussions rich with diverse opinions. With constraints set by the pre-generative AI policies in the European Union, I am piecing together how people have adapted and found success in this more challenging environment. Furthermore I have been learning about initiatives that spread across Africa and the Middle East. Comparison across and within clusters of rapid development are quite novel, but dense connections are going to be made soon.
+
+	            <br> --- I am prepared to develop technological advancement aside from the algorithms and the software. I am curious how international trade and exchange will look in a setting of near borderless networks. I see the need to engage with policy design and advising as we move towards a future of increasing technological involvement and I know that I can provide a unique lens.
             </p>
         </div>
     </main>
