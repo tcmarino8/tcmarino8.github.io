@@ -41,7 +41,65 @@
         }
         ]
     },
+    
+    {
+        "title": "Petite Dejeuner with the homies!",
+        "lat": 48.8520302001317,
+        "lng": 2.3473665895246447,
+        "description": "What a great new years eve in paris!!!",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/FriendsPetiteDej.jpeg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Disney Date <3",
+        "lat": 48.87268949558132,
+        "lng": 2.7766387454777917,
+        "description": "Madi and I went!!",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/DisneyPrincess.jpeg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+    {
+        "title": "Les Alps",
+        "lat": 45.73745860348957,
+        "lng": 6.516779562821817,
+        "description": "Was an amazing christmas spent with Laurent and Ho-il's families! Blessed to have been invited",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/LesAlps.jpeg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
 
+    {
+        "title": "At Home in another land",
+        "lat": 48.76609018541975,
+        "lng": 1.8126541867924575,
+        "description": "So many days with great people: Celeste, Adrien, Heather, Laurent, Jeremy, Ada, Emric, Axel, William, Stan. Best Dinner Parties!",
+        "media": [
+            {
+                "type": "image",
+                "url": "Photos/ChilledBalzLickin.jpeg",
+                "mimeType": "image/jpeg"
+            },
+            {
+                "type": "image",
+                "url": "Photos/GuitarBackyard.jpeg",
+                "mimeType": "image/jpeg"
+            }
+            ]
+    },
 
     {
         "title": "Epic Little Surf Trip",
