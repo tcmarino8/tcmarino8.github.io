@@ -41,7 +41,33 @@
         }
         ]
     },
-    
+    {
+        "title": "Monaco Dream",
+        "lat": 43.73742967550764,
+        "lng": 7.421132290719436,
+        "description": "What a sunset!",
+        "media": [
+        {
+            "type": "video",
+            "url": "Photos/Monaco.mp4",
+            "mimeType": "video/mp4"
+        }
+        ]
+    },
+    {
+        "title": "SUrfed Anchor",
+        "lat": 30.545852244270765,
+        "lng": -9.72566066401254,
+        "description": "Sick wave that runs far on a big day! Needs like 8 ft of swell...",
+        "media": [
+        {
+            "type": "image",
+            "url": "Photos/MonacoSurf.jpeg",
+            "mimeType": "image/jpeg"
+        }
+        ]
+    },
+        
     {
         "title": "Petite Dejeuner with the homies!",
         "lat": 48.8520302001317,
