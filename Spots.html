@@ -7,15 +7,25 @@
     <title>Spots</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    <nav>
+    <!-- <nav>
         <a href="index.html">Home</a>
-    </nav>
+    </nav> -->
     <style>
         header {
-        background-color: #012b2a;
-        color: whitesmoke;
-        padding: 10px;
-        position: relative;
+            background-color: #012b2a;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        header a {
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
         }
         main{
             background-color: #012b2a;
@@ -25,16 +35,30 @@
         }
 
         #map {
-            height: 100vh;
+            height: 95vh;
             width: 100%;
         }
     </style>
 </head>
 <body>
+
+    <header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    </header>
+
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        var map = L.map('map').setView([37.8715, -122.2730], 13); // UC Berkeley coordinates
+        // var map = L.map('map').setView([37.8715, -122.2730], 13); // UC Berkeley coordinates
+        var map = L.map('map', {
+            zoomControl: false
+        }).setView([37.8715, -122.2730], 13);
+
+        L.control.zoom({
+            position: 'topright'
+        }).addTo(map);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
