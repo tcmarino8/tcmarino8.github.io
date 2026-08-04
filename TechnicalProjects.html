@@ -7,28 +7,78 @@
     <link rel="stylesheet" href="styler.css">
      
 </head>
+
 <body>
+    
+
     <style>
+
         header {
             background-color: #012b2a;
-            color: whitesmoke;
-            padding: 10px;
-            position: relative;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            border-bottom: 2px solid white;
         }
-        main{
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #flipBtn {
+            background: #012b2a;      /* Same as header */
+            color: #012b2a;           /* Hidden text */
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        #flipBtn:hover {
+            color: white;             /* Reveal on hover */
+        }
+
+        main {
             background-color: #012b2a;
             color: whitesmoke;
             padding: 10px;
-            position: relative;
+            margin-top: 90px;         /* Prevent content under fixed header */
+            min-height: 100vh;
         }
+
+        /* White mode */
+        body.flipped main {
+            background-color: white;
+            /* color: black; */
+        }
+        .keep-green {
+            color:  #012b2a;
+        }
+
+        body.flipped .keep-green {
+            color:  #012b2a;
+        }
+        body.flipped main h3 {
+            color:  #012b2a;
+        }
+
     </style>
     <header>
         <nav>
             <a href="index.html">Home</a>
+            <button id="flipBtn">Flip</button>
+
         </nav>
-        <h1>Technical Works</h1>
     </header>
     <main>
+        <h1>Technical Works</h1>
         <p style="color: whitesmoke;"> In my years in University and before, I have explored the worlds designed by engineers and computer wizards. I enjoyed the mathematical applications in the scientific and real world modeling realms as well as more interpersonal applications. I have gravitated to real world problems and utilizing my intuition with data to model and understand processes that elevate our world to one which we intermingle harmoniously with each other and the planet. A challenging problem to shift mindsets, but through my developments in consulting and research I have grown comfortable with looking at interpersonal and envirnmental system data. I hope to find a realm of industry and research where I can further these passions of mine and help spread the word motivating a better future.  </p>
         
         <h2> Machine Learning and Marker Tracking </h2>
@@ -102,11 +152,59 @@ potential for future trophic mismatches</h2>
                         <a href="https://github.com/tcmarino8/EcologyTSA/tree/main" target="_blank">Github(see zip folder for data and all other information)</a>
 
 
-        </p1>
+        <h3 class="keep-green">
+            <br><br>
+
+
+            <br> ------
+
+            <I>Which of our open ML Research Engineer roles are you interested in, in order? </I>
+                <br> <br> Applied Research > General
+            
+            <br> <br> ------
+
+            <I>Describe an ML idea you were initially excited about but later decided was wrong or unimportant. What changed your mind?</I>
+                <br> <br> I was motivated to build a spatial-temporal (ST) interpolation model for my research in a freshwater ecology lab. 
+                I read down the modern machine learning model pipeline from RNNs to Transformers, believing ST-GraphNeuralNets were the key. 
+                Under the pressure of scientific needs and my limited deep learning and model tuning/training experience, 
+                I found that standard spline and localized linear regression models (with domain specific accuracy metrics) met the needs of my lab. I am left unsatisfied and want to wrangle these models in the future.
+
+            <br> <br> ------
+
+            <I>Describe a time when you embarked on a sidequest / took initiative outside your core job responsibilities. What value did you add to your organization? What drove you to action?</I>
+                <br> <br> I participated throughout the year in the Data Science for the Environment (EchoTech Connect series) while I was working as a staff researhc associate on the project mentioned in the question before.
+                I was exposed to information about data visualization apps, the power of user agency and interaction with the reearch we were conducting. It helped me build a visualization app that serves alongside my first research paper,
+                and a second that will serve alongside another research paper in prep. Now in my current job I am using these same skills to make machine learning more accessible for researchers in my domain.
+
+            <br> <br> ------
+        
+
+            <I>How could better accuracy fail to translate into more useful forecasts for a weather model?</I>
+                <br> <br> Oftentimes better accuracy results in a tradeoff, and suppose that tradeoff is time. 
+                Your model was 4 hours dalayed in its prediction of the landfall of the typhoon and now there are people remaining in a village where the only road out is
+                1 lane and in the direction of the incoming typhoon so only a fraction of people will make it away while the rest are left to withstand the storm. 
+                I am sure they are glad you got the windspeed down to the nearest km/h at 201 km/h. Luckily in this case they all had good storm infrastructure and were safe. 
+
+            <br> <br> ------
+
+            <I>Describe a time you changed how you use LLMs in your work — switching models, tools, or workflows. What did you observe that prompted the change?</I>
+                <br> <br> As a student who wants to try many differnet tools related to my studies,
+                I have gotten familiar using various tools, at first chat-gpt for discussions, then lovable for displaying what is possible, 
+                switching over to github copilot where I can use a suite of models both coding tools and generalist language models for specific tuning and detailed improvements and control. 
+                I have learned the importance of control when using AI. The building power is monumental, but the output falls on you. If you cannot take ownership when it fails and fix it fast, it's your fault, not the AI.
+        <h3>
+
     </main>
 
     <p1> 
 
     </p1>
+<script>
+    const flipBtn = document.getElementById("flipBtn");
+
+    flipBtn.addEventListener("click", () => {
+        document.body.classList.toggle("flipped");
+    });
+</script>
 </body>
 </html>
