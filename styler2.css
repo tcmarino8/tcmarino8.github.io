@@ -180,3 +180,14 @@ p {
         height: 20rem;
     }
 }
+
+
+/* 1. Remove default link colors and styles across all states */
+a, 
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+    color: inherit;            /* Inherits the exact text color of its parent container */
+    
+}

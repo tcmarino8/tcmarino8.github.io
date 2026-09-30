@@ -1,8 +1,22 @@
 h1 {color: #ffffff}
 p {color: #ffffff;}
-html {background  #22311d}
+html {background: #22311d}
 
+/* 1. Remove default link colors and styles across all states */
+a, 
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+    color:  orange            /* Inherits the exact text color of its parent container */
+}
 
+/* 2. Automatically prepend the link symbol to every link */
+a::before {
+    content: "\1F517";            /* Inserts the emoji/symbol and a space before the link text */
+    font-size: 0.9em;          /* Opt: Adjusts the symbol size slightly to match text flow */
+    display: inline-block;
+}
 .box-container {
   background-color: /*transparent*/ #000000;
   /*border: 1px solid #ccc;*/
